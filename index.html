@@ -35,6 +35,15 @@
     .hero h2 {
       margin: 0 0 10px;
     }
+
+    /* 🔥 FIX para la imagen que no era responsiva */
+    .hero img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
     .productos {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -91,8 +100,7 @@
   <div class="container">
     <section class="hero">
       <h2>Bienvenido</h2>
-	<img src="assets/lavadora5.png" alt="Lavadora 5" />
-
+      <img src="assets/lavadora5.png" alt="Lavadora 5" />
       <p>Explora nuestra selección de lavadoras disponibles para tu hogar.</p>
     </section>
 
