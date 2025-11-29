@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Virtual de Lavadoras</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #1a73e8;
+      padding: 20px;
+      color: white;
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 30px auto;
+    }
+    .hero {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .hero h2 {
+      margin: 0 0 10px;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .card h3 {
+      margin: 10px 0 5px;
+      font-size: 1.1rem;
+    }
+    .card p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      border-radius: 5px;
+      background: #1a73e8;
+      color: white;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: 0.2s;
+    }
+    .btn:hover {
+      background: #155fc2;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background: #ddd;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>Tienda Virtual de Lavadoras</header>
+
+  <div class="container">
+    <section class="hero">
+      <h2>Bienvenido</h2>
+	<img src="assets/lavadora5.png" alt="Lavadora 5" />
+
+      <p>Explora nuestra selección de lavadoras disponibles para tu hogar.</p>
+    </section>
+
+    <section class="productos">
+      <div class="card">
+        <img src="assets/lavadora1.webp" alt="Lavadora 1" />
+        <h3>Lavadora Haceb 12kg tapa inferior</h3>
+        <p>Precio: $1.500.000</p>
+        <a href="#" class="btn">Ver detalles</a>
+      </div>
+
+      <div class="card">
+        <img src="assets/lavadora2.webp" alt="Lavadora 2" />
+        <h3>Lavadora tapa superior haceb 10kg</h3>
+        <p>Precio: $1.250.000</p>
+        <a href="#" class="btn">Ver detalles</a>
+      </div>
+
+      <div class="card">
+        <img src="assets/lavadora3.webp" alt="Lavadora 3" />
+        <h3>Lavadora Hacep Eco 15kg</h3>
+        <p>Precio: $1.850.000</p>
+        <a href="#" class="btn">Ver detalles</a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Tienda Virtual de Lavadoras — Proyecto Formativo
+  </footer>
+</body>
+</html>
